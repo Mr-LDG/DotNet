@@ -7,11 +7,14 @@
 
 기능명세, 시퀀스 다이어그램, 클래스 다이어그램 등 기획 세부사항 -> Visit https://1drv.ms/p/s!AoBxAa-X3p2tgz1aXuU9pVV1amZ6I
 
-UI 구성 -> https://1drv.ms/p/s!AoBxAa-X3p2tfaFrofQVtBp0z-A
+UI 기획 -> https://1drv.ms/p/s!AoBxAa-X3p2tfaFrofQVtBp0z-A
 
 ## 1-2 담당업무
- 1. 개발환경 셋팅 및 배포 - 
+ 1. 개발환경 셋팅 및 배포 - eclipse 무설치 버전 기본 세팅, Spring MVC + MyBatis 환경 세팅 및 배포
+ 2. 개발부분(FrontEnd, BackEnd) - 설문 만들기, 설문 진행, 결과 및 공유 기능(카카오톡), 게시판 관리, 피드 설문 관련 페이지 및 sql 작성
+ 3. 유지보수 - 소스 코드 통합 및 버그,오류 수정
+ 
 ## 1-3 사용기술
-
+ 
 ## 1-4 시연화면
 
