@@ -5,7 +5,8 @@
 ## 1-1 사이트 기획
  소상공인들의 의뢰를 받아 트렌드, 소비 동향, 라이프 스타일 등을 유저들에게 조사하여 의뢰인이 데이터를 활용할 수 있도록 돕는 사이트를 만들고자 했습니다. 또한 소비자들이 스스로 간단한 설문을 만들고 참여함으로써 자체적인 커뮤니티를 형성할 수 있도록 하였습니다.
 
-기능명세, 시퀀스 다이어그램, 클래스 다이어그램 등 기획 세부사항 -> Visit https://1drv.ms/p/s!AoBxAa-X3p2tgz1aXuU9pVV1amZ6I
+기능명세, 시퀀스 다이어그램, 클래스 다이어그램 등 기획 세부사항  
+-> Visit https://1drv.ms/p/s!AoBxAa-X3p2tgz1aXuU9pVV1amZ6I
 
 UI 기획 -> https://1drv.ms/p/s!AoBxAa-X3p2tfaFrofQVtBp0z-A
 
@@ -15,6 +16,6 @@ UI 기획 -> https://1drv.ms/p/s!AoBxAa-X3p2tfaFrofQVtBp0z-A
  3. 유지보수 - 소스 코드 통합 및 버그,오류 수정
  
 ## 1-3 사용기술
- ![개발환경 이미지 모음](https://drive.google.com/open?id=1EPhsDicf_ramZO5BdC8ZmxzbuqOVUtXQ)
-## 1-4 시연화면
+ ![개발환경 이미지 모음](http://drive.google.com/uc?export=view&id=1EPhsDicf_ramZO5BdC8ZmxzbuqOVUtXQ)
 
+## 1-4 시연화면
