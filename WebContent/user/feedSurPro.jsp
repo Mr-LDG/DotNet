@@ -10,7 +10,7 @@
 		<script type="text/javascript">
 		var result = ${result};
 		if(result) {
-			location.href = "mypage.do";
+			location.href = "myFeed.do";
 		} else {
 			alert("feed설문 등록 실패");
 		}

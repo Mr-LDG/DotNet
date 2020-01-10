@@ -141,7 +141,7 @@
 				jQuery("#delBtn").on('click',function(){
 					if(cntq > 1){
 						cntq--;
-						alert("cntq : " + cntq);
+						//alert("cntq : " + cntq);
 					}
 					if(cntq == 1)
 						return false;
@@ -150,7 +150,7 @@
 				jQuery("#addBtn").on('click',function(){
 					if(cntq < 5) {
 						cntq++;
-						alert("cntq : " + cntq);
+						//alert("cntq : " + cntq);
 					}
 					if(cntq == 5)
 						return false;

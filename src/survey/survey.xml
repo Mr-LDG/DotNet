@@ -141,7 +141,7 @@
 			select SEQ_dn_s_eight_eight_id.nextval, A.* from (
 			<foreach collection="qList" item="item" index="i" separator="UNION ALL">
 				select
-					#{s_num}, #{i}+1, #{item.qContent}, #{item.s1Content}, #{item.s2Content}, #{item.s3Content}, #{item.s4Content}
+					#{s_num}+1, #{i}+1, #{item.qContent}, #{item.s1Content}, #{item.s2Content}, #{item.s3Content}, #{item.s4Content}
 				from dual
 			</foreach>
 			) A
@@ -156,7 +156,7 @@
 			select SEQ_dn_s_five_five_id.nextval, A.* from (
 			<foreach collection="qList" item="item" index="i" separator="UNION ALL">
 				select
-					#{s_num}, #{i}+1, #{item.qContent}, #{item.s1Content}, #{item.s2Content}, #{item.s3Content}, #{item.s4Content}, #{item.s5Content}
+					#{s_num}+1, #{i}+1, #{item.qContent}, #{item.s1Content}, #{item.s2Content}, #{item.s3Content}, #{item.s4Content}, #{item.s5Content}
 				from dual
 			</foreach>
 			) A

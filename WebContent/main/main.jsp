@@ -13,7 +13,7 @@
 		<meta name="author" content="">
 		<title>.NET Sample</title>
 		
-<!-- 		kakao api -->
+		<!-- 		kakao api -->
 		<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
 		
 		<!-- bootstrap CDN -->

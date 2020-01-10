@@ -122,7 +122,7 @@
 <!-- <script type="text/javascript" src="/DotNet/js/bootstrap.bundle.js"></script> -->
 	<script>
 	$(document).ready(function(){
-		$('#loginBtn').on('click',function(){
+		jQuery('#loginBtn').on('click',function(){
 			if(!$('#navId').val()){
 				alert("아이디를 입력해 주세용 ~~");
 				return false;
@@ -139,7 +139,6 @@
 					url:"login.do",
 					success:function(data){
 						if(data == "1"){
-							alert('로그인 성공');
 							$("#askSubmit").attr("data-dismiss","modal");
 							location.reload();
 						}else if(data == "0"){
@@ -161,7 +160,7 @@
 	</script>
 	<script>
 		$(document).ready(function(){
-			$("#logoutNav").on('click',function(){
+			jQuery("#logoutNav").on('click',function(){
 				
 				var dd = {1:"1"};
 				$.ajax({

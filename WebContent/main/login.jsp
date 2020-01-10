@@ -93,7 +93,7 @@ input.btn-info {
 									<!--Footer-->
 									<div class="modal-footer">
 										<div class="options text-center text-md-right mt-1">
-											<p">
+											<p>
 												아직 회원이 아니신가요? <a href="signup.do" class="blue-text">
 													&nbsp;&nbsp;회원가입</a>
 											</p>
