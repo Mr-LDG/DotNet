@@ -18,4 +18,10 @@ UI 기획 -> https://1drv.ms/p/s!AoBxAa-X3p2tfaFrofQVtBp0z-A
 ## 1-3 사용기술
  ![개발환경 이미지 모음](http://drive.google.com/uc?export=view&id=1EPhsDicf_ramZO5BdC8ZmxzbuqOVUtXQ)
 
-## 1-4 시연화면
+## 1-4 시연화면  
+### 설문만들기
+![설문만들기.gif](./gif/설문만들기.gif)  
+-로그인 후 설문 만들기 가능  
+-양자택일, 5지선다, 8문8답 세가지 양식의 설문(양자택일, 5지선다는 최대 5문항, 8문8답은 8문항)  
+-썸네일 추가 가능(drag&drop 방식)  
+
