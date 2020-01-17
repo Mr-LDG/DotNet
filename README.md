@@ -16,7 +16,7 @@ UI 기획 -> https://1drv.ms/p/s!AoBxAa-X3p2tfaFrofQVtBp0z-A
  3. 유지보수 - 소스 코드 통합 및 버그,오류 수정, 호환성검사 등
  
 ## 1-3 사용기술
- ![개발환경 이미지 모음](./img/DotNet Project 2차 개발환경.png)
+ ![개발환경이미지모음](./gif/2차개발환경.png)
 
 ## 1-4 시연화면  
 ### 설문만들기
