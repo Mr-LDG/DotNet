@@ -15,8 +15,8 @@ UI 기획 -> https://1drv.ms/p/s!AoBxAa-X3p2tfaFrofQVtBp0z-A
  2. 개발부분(FrontEnd, BackEnd) - 설문 만들기, 설문 진행, 결과 및 공유 기능(카카오톡), 게시판 관리, 피드 설문 관련 페이지 및 sql 작성
  3. 유지보수 - 소스 코드 통합 및 버그,오류 수정, 호환성검사 등
  
-## 1-3 사용기술
- ![개발환경이미지모음](./gif/2차개발환경.png)
+## 1-3 사용기술  
+![2차개발환경](https://user-images.githubusercontent.com/48622143/72610879-e9803980-396b-11ea-9aea-81480e0087ea.PNG)  
 
 ## 1-4 시연화면  
 ### 설문만들기
