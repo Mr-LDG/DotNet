@@ -64,5 +64,53 @@ UI 기획 -> https://1drv.ms/p/s!AoBxAa-X3p2tfaFrofQVtBp0z-A
 
 # 3. 로그파일 생성 및 분석 후 웹사이트 적용  
 ## 3-1 기획  
- 만들어진 웹사이트에서 나온 로그들을 이용하여 설문결과를 분석 후 신뢰성이 높은 응답만을 결과에 반영하도록 만들었습니다. 이를 통해 의뢰인이 좀 더 신뢰가능한 데이터를 활용할 수 있도록 돕습니다.
+ 만들어진 웹사이트에서 나온 로그들을 이용하여 설문결과를 분석 후 신뢰성이 높은 응답만을 결과에 반영하도록 만들었습니다. 이를 통해 의뢰인이 좀 더 신뢰가능한 데이터를 활용할 수 있도록 돕습니다.  
+ 
+ Mindmap, 기술요약 및 기술 상세 등 세부사항  
+Visit -> https://1drv.ms/p/s!AoBxAa-X3p2tgzRy9Pu5VfDlmdtG?e=H790dS
 
+## 3-2 담당업무  
+ 1. 개발환경 셋팅 및 배포 - linux 설치 및 서버, 네트워크 세팅, EchoSystem 설치 및 세팅, Hadoop & Spark 분산환경 세팅  
+ 2. 개발부분 - 로그 전처리(Python3), 적재(Flume), 분석(Python3-KNN), 적용(sqoop) 부분  
+ 
+## 3-3 사용기술  
+![DotNet Project 3차 개발환경](https://user-images.githubusercontent.com/48622143/73336121-540e6f00-42b4-11ea-88aa-fd8de43ef55e.PNG)  
+
+## 3-4 주요기술 사진  
+### Hadoop 및 주요 설정파일  
+#### hdfs-site.xml / mapreduce-site.xml
+<img src="https://user-images.githubusercontent.com/48622143/73336699-e19e8e80-42b5-11ea-8021-0acd8319e4a9.PNG" width="50%" height="50%"><img src="https://user-images.githubusercontent.com/48622143/73336700-e19e8e80-42b5-11ea-8d72-08536dcc4ea0.PNG" width="50%" height="50%">  
+#### profile / yarn-site.xml
+<img src="https://user-images.githubusercontent.com/48622143/73336701-e19e8e80-42b5-11ea-9c4a-80a77ba5268f.PNG" width="50%" height="70%"><img src="https://user-images.githubusercontent.com/48622143/73336703-e2372500-42b5-11ea-8e4a-1eb7139554fa.PNG" width="50%" height="100%">  
+
+### Flume 설정  
+<img src="https://user-images.githubusercontent.com/48622143/73338354-bc138400-42b9-11ea-8561-5e9498bba1e1.PNG" width="75%" height="75%">  
+로그 파일을 감시하다가 새로운 로그가 쌓이면 hadoop으로 올려줍니다.
+
+### Python Code(수집, 전처리, 분석)  
+#### 수집  
+<img src="https://user-images.githubusercontent.com/48622143/73338352-bc138400-42b9-11ea-9246-3c59ade1e2cc.PNG" width="75%" height="75%">  
+server에 쌓이는 로그들을 모아줍니다.  
+
+#### 전처리  
+<img src="https://user-images.githubusercontent.com/48622143/73338355-bcac1a80-42b9-11ea-91f3-be8a7a945003.PNG" width="75% height="75%">  
+Hadoop에 올라간 log중 필요한 부분만 잘라냅니다.  
+                                                                                                                                   
+#### 분석  
+<img src="https://user-images.githubusercontent.com/48622143/73338353-bc138400-42b9-11ea-99d6-8983144d624d.PNG" width="75%" height="75%">  
+미리 학습해놓은 모델을 가져와 새로 들어온 데이터를 분석하여 결과를 저장합니다.
+
+### Sqoop 명령어  
+<img src="https://user-images.githubusercontent.com/48622143/73338356-bcac1a80-42b9-11ea-9b43-2866b5ff190d.PNG" width="75%" height="75%">  
+분석된 결과를 oracle server에 반영합니다.
+
+## 3-5 시연화면  
+### 서버구동  
+
+Tomcat, Oracle, Hadoop, Yarn, Spark, Flume 구동  
+### 분석 및 적용  
+
+결과를 분석 후 Sqoop을 이용해 Oracle Server에 적용  
+### 결과 화면  
+
+웹사이트에서 분석 결과 확인
