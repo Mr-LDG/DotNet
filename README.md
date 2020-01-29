@@ -85,32 +85,40 @@ Visit -> https://1drv.ms/p/s!AoBxAa-X3p2tgzRy9Pu5VfDlmdtG?e=H790dS
 
 ### Flume 설정  
 <img src="https://user-images.githubusercontent.com/48622143/73338354-bc138400-42b9-11ea-8561-5e9498bba1e1.PNG" width="75%" height="75%">  
-로그 파일을 감시하다가 새로운 로그가 쌓이면 hadoop으로 올려줍니다.
+-로그 파일을 감시하다가 새로운 로그가 쌓이면 hadoop으로 올려줍니다.
 
 ### Python Code(수집, 전처리, 분석)  
 #### 수집  
 <img src="https://user-images.githubusercontent.com/48622143/73338352-bc138400-42b9-11ea-9246-3c59ade1e2cc.PNG" width="75%" height="75%">  
-server에 쌓이는 로그들을 모아줍니다.  
+-server에 쌓이는 로그들을 모아줍니다.  
 
 #### 전처리  
 <img src="https://user-images.githubusercontent.com/48622143/73338355-bcac1a80-42b9-11ea-91f3-be8a7a945003.PNG" width="75% height="75%">  
-Hadoop에 올라간 log중 필요한 부분만 잘라냅니다.  
+-Hadoop에 올라간 log중 필요한 부분만 잘라냅니다.  
                                                                                                                                    
 #### 분석  
 <img src="https://user-images.githubusercontent.com/48622143/73338353-bc138400-42b9-11ea-99d6-8983144d624d.PNG" width="75%" height="75%">  
-미리 학습해놓은 모델을 가져와 새로 들어온 데이터를 분석하여 결과를 저장합니다.
+-미리 학습해놓은 모델을 가져와 새로 들어온 데이터를 분석하여 결과를 저장합니다.
 
 ### Sqoop 명령어  
 <img src="https://user-images.githubusercontent.com/48622143/73338356-bcac1a80-42b9-11ea-9b43-2866b5ff190d.PNG" width="75%" height="75%">  
-분석된 결과를 oracle server에 반영합니다.
+-분석된 결과를 oracle server에 반영합니다.
 
 ## 3-5 시연화면  
 ### 서버구동  
-
-Tomcat, Oracle, Hadoop, Yarn, Spark, Flume 구동  
+![서버구동.gif](./gif/서버구동.gif)  
+-Tomcat, Oracle, Hadoop, Yarn, Spark, Flume 구동  
 ### 분석 및 적용  
-
-결과를 분석 후 Sqoop을 이용해 Oracle Server에 적용  
+![분석적용.gif](./gif/분석적용.gif)
+-결과를 분석 후 Sqoop을 이용해 Oracle Server에 적용  
+-영상에는 명령어를 직접 쳤지만 평소에는 cron을 이용하여 동작하도록 설계
 ### 결과 화면  
+![결과화면.gif](./gif/결과화면.gif)
+-웹사이트에서 분석 결과 확인
 
-웹사이트에서 분석 결과 확인
+## 3-6 느낀점 및 어려웠던 점  
+### 1) 생소한 것에 대한 어려움과 성취감  
+개발을 하면서 linux를 앞으로도 많이 쓰게 될 것이고 잘 사용하는 것이 중요하다는 것을 깨달았다. 처음에는 기본적인 명령어도 생소하고 어려웠지만 많이 쓸수록 점점 익숙해졌다. 그리고 여러가지 에코시스템 세팅을 해보고 막히는 부분이 있으면 해당 사이트의 도움말이나 가이드를 읽어보고 해결해 나가면서 점점 재미있게 느껴졌다. 하나하나 뜯어보고 고쳐가며 마지막에 하고자 했던 분석 및 적용까지 마쳤을 때는 자신감이 많이 생겼다.  
+
+### 2) 공부를 많이 해야겠다  
+내가 잘 모르니 팀원들에게 일을 분배하기가 쉽지 않았고 후반으로 갈수록 전체가 같이 일하기가 쉽지 않았다. 또 노력했지만 실제로 사용한 에코시스템이나 분석기법이 전체 중 일부분에 불과했고 적절하게 사용하기도 어려웠다. 마지막 프로젝트를 통해서 내가 어떤 자리에 있든 무슨 일을 하든 하고 있는 일에 대해 잘 아는 것이 나에게도 팀에게도 꼭 필요하고 도움이 된다는 것을 깨달았다.  
